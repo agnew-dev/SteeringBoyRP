@@ -8,8 +8,12 @@ namespace SteeringBoyRP.App.Models
         public required string WheelImageSourceUri { get; set; }
         public required string HandImageSourceUri { get; set; }
         public required string SirenImageSourceUri { get; set; }
+
+        public bool IsWheelEnabled { get; set; }
         public bool IsLeftHandEnabled { get; set; }
         public bool IsRightHandEnabled { get; set; }
         public bool IsSirenEnabled { get; set; }
+
+
     }
 }
