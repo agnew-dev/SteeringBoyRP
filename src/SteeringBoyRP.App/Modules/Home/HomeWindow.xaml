@@ -7,6 +7,36 @@
         mc:Ignorable="d"
         Title="Steering Boy Setup" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0"
+                Content="Open Overlay"
+                Background="MediumSeaGreen"
+                Height="100"
+                Width="200"
+                />
+        <Button Grid.Row="0" Grid.Column="1"
+                Content="Wheel Designer"
+                Background="MediumVioletRed"
+                Height="100"
+                Width="200"
+                />
+        <Button Grid.Row="1" Grid.Column="0"
+                Content="Keybinds / Controls"
+                Height="100"
+                Width="200"
+                />
+        <Button Grid.Row="1" Grid.Column="1" 
+                Background="MediumPurple" 
+                Content="Twitch Settings" 
+                Height="100"
+                Width="200" 
+                />
     </Grid>
 </Window>

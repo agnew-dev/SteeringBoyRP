@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MaterialDesignExtensions" Version="3.3.0" />
     <PackageReference Include="MouseKeyHook" Version="5.7.1" />
+    <PackageReference Include="TwitchLib.PubSub" Version="3.2.6" />
   </ItemGroup>
 
 </Project>
